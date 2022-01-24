@@ -1,3 +1,3 @@
 #!/bin/sh
-cd ~/www/astrologie.bressani.dev
+cd /home/debian/www/astrologie.bressani.dev
 yarn serve

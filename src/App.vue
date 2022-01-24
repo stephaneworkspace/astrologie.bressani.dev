@@ -2,7 +2,7 @@
   <div id="app" class="bg">
     <img alt="Vue logo" src="./assets/logo.png">
     <p></p>
-    <HelloWorld msg="Astrologie - bressani.dev"/>
+    <HelloWorld msg="Astrologie"/>
   </div>
 </template>
 

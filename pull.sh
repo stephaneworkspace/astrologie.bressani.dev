@@ -1,0 +1,2 @@
+#!/bin/sh
+ssh debian@astrologie-traditionnelle.net "sudo systemctl stop astro.service&& cd ~/www/astrologie.bressani.dev/ && git pull && sudo systemctl start astro.service && systemctl status astro.service"

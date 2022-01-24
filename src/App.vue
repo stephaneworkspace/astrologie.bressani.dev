@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p></p>
+    <HelloWorld msg="Astrologie - bressani.dev"/>
   </div>
 </template>
 
@@ -22,7 +23,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.bg {
+  background-image: url("~@/assets/bg.png");
 }
 </style>
